@@ -24,10 +24,10 @@ So to run the catalogue service we choose to run as a normal user and that user 
 So let's switch to the `roboshop` user and run the following commands.
 
 ```
-$ curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip"
+$ curl -s -L -o /tmp/catalogue.zip "https://github.com/cicd-project/rs-catalogue/archive/main.zip"
 $ cd /home/roboshop
 $ unzip /tmp/catalogue.zip
-$ mv catalogue-main catalogue
+$ mv rs-catalogue-main catalogue
 $ cd /home/roboshop/catalogue
 $ npm install 
 ```
